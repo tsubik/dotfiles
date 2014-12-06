@@ -1,0 +1,14 @@
+[
+	{ "keys": ["ctrl+k", "q"], "command": "sublimelinter_disable_linting" },
+	{ "keys": ["ctrl+k", "ctrl+d"], "command": "beautify_ruby", "context": [
+      { "key": "selector", "operator": "equal", "operand": "source.ruby" }
+    ]},
+	{ "keys": ["ctrl+k", "ctrl+d"], "command": "htmlprettify", "context": [
+      { "key": "selector", "operator": "equal", "operand": "source.js, source.json, source.html, source.css" }
+    ]},
+	{ "keys": ["ctrl+shift+."], "command": "erb", "context":
+      [
+        { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+      ]
+    }
+]

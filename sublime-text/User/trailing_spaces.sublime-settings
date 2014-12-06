@@ -1,0 +1,6 @@
+{
+	"trailing_spaces_highlight_color": "",
+	"trailing_spaces_modified_lines_only": true,
+    // By default, only simple spaces and tabs are matched as "trailing spaces".
+    "trailing_spaces_regexp": "[ \t]+"
+}
