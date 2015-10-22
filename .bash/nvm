@@ -3,5 +3,4 @@ NVM_DIR="/home/tomasz/.nvm"
 nvm use stable
 
 # Add your local node_modules bin to the path
-export PATH="$PATH:node_modules/.bin"
-# export PATH="$PATH:$HOME/.npm-packages/bin"
+export PATH="node_modules/.bin:$PATH"
