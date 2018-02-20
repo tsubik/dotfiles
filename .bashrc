@@ -4,9 +4,14 @@ source ~/.bash/aliases
 source ~/.bash/editor
 source ~/.bash/heroku
 source ~/.bash/nvm
-source ~/.bash/prompt
+source ~/.bash/git
 source ~/.bash/rbenv
 source ~/.bash/docker
+
+# including this ensures that new gnome-terminal tabs keep the parent `pwd` !
+if [ -e /etc/profile.d/vte.sh ]; then
+  . /etc/profile.d/vte.sh
+fi
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -40,3 +45,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export DOCKERID=tsubik
 
 export PATH="$HOME/.yarn/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

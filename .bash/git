@@ -1,0 +1,8 @@
+#GIT
+
+source /usr/share/git/completion/git-completion.bash
+source /usr/share/git/completion/git-prompt.sh
+
+export GIT_PS1_SHOWDIRTYSTATE=1i
+export PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
+
