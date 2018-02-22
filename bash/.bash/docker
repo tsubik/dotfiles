@@ -1,1 +1,4 @@
+# DOCKER
+export DOCKERID=tsubik
+
 # PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '
