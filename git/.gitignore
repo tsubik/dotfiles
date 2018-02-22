@@ -1,0 +1,5 @@
+.DS_Store
+.bash_secret
+.db_branch_dumps
+.projectile
+.ignore
