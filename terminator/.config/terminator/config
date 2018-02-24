@@ -1,0 +1,18 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+  go_down = <Alt>s
+  go_left = <Alt>a
+  go_right = <Alt>d
+  go_up = <Alt>w
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
