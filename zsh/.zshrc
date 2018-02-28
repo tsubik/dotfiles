@@ -5,6 +5,7 @@ antigen use oh-my-zsh
 
 antigen bundle git
 antigen bundle nvm
+antigen bundle rbenv
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
@@ -20,11 +21,3 @@ source ~/.zsh/node.zsh
 alias be="bundle exec"
 alias ec="emacsclient -c"
 alias ya="yaourt"
-
-export EDITOR="ec"
-### Added by the Heroku Toolbelt
-export PATH="~/local/bin:$PATH"
-export PATH="~/.local/bin:$PATH"
-export PATH="/usr/local/heroku/bin:$PATH"
-
-export DEFAULT_USER=`whoami`
