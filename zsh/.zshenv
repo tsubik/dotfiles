@@ -1,4 +1,4 @@
-export EDITOR="ec"
+export EDITOR="emacsclient -c"
 ### Added by the Heroku Toolbelt
 export PATH="$HOME/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"

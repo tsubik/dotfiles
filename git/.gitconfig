@@ -1,6 +1,7 @@
 [user]
 	email = tsubik@gmail.com
 	name = Tomasz Subik
+	signingkey = ECB70D034627F533
 [core]
 	excludesfile = /home/tomasz/.gitignore
 	editor = emacsclient
@@ -22,3 +23,5 @@
   undo = reset HEAD~1 --mixed
 [push]
 	default = simple
+[commit]
+	gpgsign = true

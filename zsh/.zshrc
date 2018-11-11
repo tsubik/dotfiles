@@ -21,3 +21,6 @@ source ~/.zsh/node.zsh
 alias be="bundle exec"
 alias ec="emacsclient -c"
 alias ya="yaourt"
+
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
