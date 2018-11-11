@@ -21,6 +21,8 @@ source ~/.zsh/node.zsh
 alias be="bundle exec"
 alias ec="emacsclient -c"
 alias ya="yaourt"
+alias de="docker exec"
+alias dce="docker-compose exec"
 
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
