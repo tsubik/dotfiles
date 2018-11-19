@@ -3,3 +3,5 @@
 .db_branch_dumps
 .projectile
 .ignore
+dump.rdb
+.rake_tasks

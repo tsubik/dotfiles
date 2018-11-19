@@ -9,6 +9,7 @@ antigen bundle rbenv
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
+antigen bundle rake-fast
 
 antigen theme agnoster
 
