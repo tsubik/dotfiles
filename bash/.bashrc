@@ -31,4 +31,4 @@ export LIGHTHOUSE_CHROMIUM_PATH="$HOME/.local/chrome-linux/chrome"
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
-export PATH="$HOME/.yarn/bin:$PATH"
+# export PATH="$HOME/.yarn/bin:$PATH"

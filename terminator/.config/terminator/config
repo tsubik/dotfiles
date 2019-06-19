@@ -5,6 +5,8 @@
   go_left = <Alt>a
   go_right = <Alt>d
   go_up = <Alt>w
+  next_tab = <Alt>e
+  prev_tab = <Alt>q
 [layouts]
   [[default]]
     [[[child1]]]
