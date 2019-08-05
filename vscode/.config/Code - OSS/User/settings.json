@@ -1,0 +1,11 @@
+{
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "ruby.lintDebounceTime": 500,
+  "breadcrumbs.enabled": true,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Monokai"
+}
