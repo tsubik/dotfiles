@@ -10,4 +10,4 @@ Using GNU Stow to create symlinks
 
 `cd ~/dotfiles`
 
-`stow bash ruby misc git`
+`stow bash ruby misc git local`

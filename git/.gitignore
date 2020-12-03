@@ -3,7 +3,9 @@
 .db_branch_dumps
 .projectile
 .ignore
+db/data_migration
 dump.rdb
 .rake_tasks
 .tool-versions
 .vscode/
+todo-notes.txt
