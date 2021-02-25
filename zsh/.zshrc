@@ -4,7 +4,6 @@ source ~/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundle git
-antigen bundle nvm
 antigen bundle rbenv
 antigen bundle bundler
 
@@ -16,7 +15,7 @@ antigen theme agnoster
 
 antigen apply
 
-source ~/.zsh/node.zsh
+source ~/.zsh/fnm.zsh
 
 ## End of antigen config
 

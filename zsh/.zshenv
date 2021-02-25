@@ -11,7 +11,13 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
 
+export GOPATH="$HOME/gocode"
+export PATH="$PATH:$GOPATH/bin"
+
 export DEFAULT_USER=`whoami`
 
 # Add your local node_modules bin to the path
 export PATH="node_modules/.bin:$PATH"
+
+# EJSON
+export EJSON_KEYDIR="$HOME/.ejson/keys"
