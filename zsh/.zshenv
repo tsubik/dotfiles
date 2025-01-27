@@ -21,3 +21,6 @@ export PATH="node_modules/.bin:$PATH"
 
 # EJSON
 export EJSON_KEYDIR="$HOME/.ejson/keys"
+
+# GPG
+export GPG_TTY=$(tty)
