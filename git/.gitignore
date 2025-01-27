@@ -9,3 +9,4 @@ dump.rdb
 .tool-versions
 .vscode/
 todo-notes.txt
+db/dumps

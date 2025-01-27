@@ -18,6 +18,7 @@
   ghstat = rev-list --left-right --count
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=local
   save = !git add -A && git commit -m 'SAVEPOINT'
+  search = "!f() { git log -S \"$1\" --no-merges -c --pretty=format:'%h %s [%an]'; }; f"
   recommit = !git add -A && git commit --amend --no-edit
   st = status
   type = cat-file -t

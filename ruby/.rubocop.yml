@@ -1,9 +1,0 @@
-StringLiterals:
-  EnforcedStyle: double_quotes
-  Enabled: false
-Documentation:
-  Enabled: false
-Layout/LineLength:
-  Enabled: false
-Style/FrozenStringLiteralComment:
-  Enabled: false
