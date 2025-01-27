@@ -31,3 +31,4 @@ alias dce="docker-compose exec"
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH="/home/tomasz/applications/tx:$PATH"
 export PATH="/home/tomasz/applications/tx:$PATH"
+

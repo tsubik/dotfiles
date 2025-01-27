@@ -1,6 +1,9 @@
 #FNM
-export PATH=/home/tomasz/.fnm:$PATH
-eval "`fnm env`"
+FNM_PATH="/home/tomasz/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/tomasz/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
 
 #FNM autoload
 autoload -U add-zsh-hook
